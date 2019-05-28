@@ -2,7 +2,7 @@ version: 2.1
 executors:
   ci-executor:
     docker:
-      - image: REPLACE-ME-WITH-DOCKER-IMAGE
+      - image: .circleci/config.yml
 jobs:
   build:
     executor: ci-executor
